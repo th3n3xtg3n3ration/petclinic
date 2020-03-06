@@ -6,9 +6,6 @@ metadata:
   name: petclinic-deployment
 spec:
   replicas: 1
-    selector:
-      matchLabels:
-        service: petclinic-deployment
   strategy:
     type: RollingUpdate
     rollingUpdate:
