@@ -1,6 +1,6 @@
 #Deployment
 ###controllers/pb-deploy.tml
-apiVersion: extensions/v1beta1
+apiVersion: apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: petclinic-deployment
